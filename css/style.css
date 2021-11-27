@@ -1,12 +1,10 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 html {
   font-size: 16px;
 }
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2560px) {
   html {
     font-size: 30px;
   }
@@ -26,7 +24,7 @@ body {
   grid-template-rows: repeat(3, auto);
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .contetn_card {
     padding-top: 0;
     padding-bottom: 0;
@@ -59,7 +57,7 @@ body {
   border-bottom-left-radius: 0.3125rem;
   border-bottom-right-radius: 0.3125rem;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .card--borderTop {
     border-top-right-radius: 0;
     border-top-left-radius: 0.3125rem;
@@ -118,7 +116,7 @@ body {
   color: #fff;
   background-color: transparent;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .card__btn {
     margin-top: 1.25rem;
   }
